@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="title"><p>BATTALION FORCE MANAGEMENT</p></header>
+    <header id="EditTitle">EDIT PERSONNEL </header>
+    <div id="allPage">
+        <form id="mainForm">
+<input type="text" placeholder="Full Name" class="allInput"  id="fullNameInput">
+<input type="text" placeholder="Rank" class="allInput" id="rankInput">
+<input type="text" placeholder="Position" class="allInput" id="positionInput">
+<input type="text" placeholder="Platoon"  class="allInput"id="platoonInput">
+<input type="text" placeholder="Mission Time (seconds)"  class="allInput"id="missionTimeInput">
+<select  class="allInput"id="statusInput">
+    <option value="active">active</option>
+    <option value="Reserve">Reserve</option>
+    <option value="Retired">Retired</option>
+</select>
+<button id="addButton" type="submit"> Add Personnel</button>
+        </form>
+        <section>
+            <table id="tableOfAll">
+                <tr class="tableRow"> 
+                    <th>Full name</th>
+                    <th>Rank</th>
+                    <th>Position</th>
+                    <th>Platoon</th>
+                    <th>Mission Time</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+body{
+    background-color: #2C3E50;
+}
+#EditTitle{
+display: none;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-right: 450px; 
+    background-color:#34495E;  
+    font-family: monospace;
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 20px rgb(0, 0, 0);
+    margin-bottom: 25px;
+    color: #28A960;
+    font-size: 30px;
+  
+
+}
+.allInput{
+    margin-bottom: 5px;
+    height: 30px;
+    margin-top: 5px;
+    width: 600px;
+    margin-left: 20px;
+    display: flex;
+    justify-items: center;
+    background-color: #22313F;
+    color: white;
+}
+#fullNameInput{
+    margin-top: 20px;
+    
+}
+#mainForm #addButton{
+    background-color:#28A960; 
+}
+#tableOfAll{
+    /* padding: 20px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    border: solid 1px rgba(128, 128, 128, 0.296);
+    /* border-radius: 7px; */
+    /*
+    min-width: 300px;
+    gap: 15px; */
+    background-color: white;
+    margin-top: 15px;
+}
+
+.tableRow{
+
+}
+th{
+    /* border: #1f1f1f 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.153);
+    color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* gap: 25px; */
+    min-width: 250px;
+    justify-content: space-between; 
+}
