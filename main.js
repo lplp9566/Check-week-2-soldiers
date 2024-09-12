@@ -1,20 +1,4 @@
-{/* <header id="title"><p>BATTALION FORCE MANAGEMENT</p></header>
-<header id="EditTitle">EDIT PERSONNEL </header>
-<div id="allPage">
-    <form id="mainForm">
-<input type="text" placeholder="Full Name" class="allInput"  id="fullNameInput">
-<input type="text" placeholder="Rank" class="allInput" id="rankInput">
-<input type="text" placeholder="Position" class="allInput" id="positionInput">
-<input type="text" placeholder="Platoon"  class="allInput"id="platoon">
-<input type="text" placeholder="Mission Time (seconds)"  class="allInput"id="missionTimeInput">
-<select  class="allInput"id="statusInput">
-<option value="active">active</option>
-<option value="Reserve">Reserve</option>
-<option value="Retired">Retired</option>
-</select>
-<button id="addButton" type="submit"> Add Personnel</button>
-    </form>
-</div> */}
+
 
 const addNewSoldier = document.getElementById("addButton")
 const inputFullName =document.getElementById("fullNameInput")
